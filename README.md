@@ -25,7 +25,7 @@ Projeto de uma calculadora simples desenvolvida para praticar conceitos fundamen
 ## Acesse o projeto
 
 * 🔹 GitHub: https://github.com/rafaelsartorimilanez1-pixel/projeto-calculadora
-* 🔹 Deploy: https://seu-projeto.vercel.app *(se tiver)*
+* 🔹 Deploy: https://projeto-calculadora-5qts.vercel.app/
 
 ## Aprendizados
 
