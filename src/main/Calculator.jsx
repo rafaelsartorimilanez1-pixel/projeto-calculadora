@@ -50,12 +50,22 @@ export default class Calculator extends Component {
             const currentOperation = this.state.operation    // operação atual
             const values = [...this.state.values]            // copia dos valores
 
-            try {
-                // Executa o cálculo (ex: 10 + 5)
-                values[0] = eval(`${values[0]} ${currentOperation} ${values[1]}`)
-            } catch (e) {
-                // Em caso de erro, mantém o valor anterior
-                values[0] = this.state.values[0]
+            // Executa o cálculo (ex: 10 + 5)
+            switch (currentOperation) {
+                case '+':
+                    values[0] = values[0] + values[1];
+                    break;
+                case '-':
+                    values[0] = values[0] - values[1];
+                    break;
+                case '*':
+                    values[0] = values[0] * values[1];
+                    break;
+                case '/':
+                    values[0] = values[1] !== 0 ? values[0] / values[1] : values[0];
+                    break;
+                default:
+                    break;
             }
 
             values[1] = 0 // reseta o segundo valor
