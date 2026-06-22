@@ -2,6 +2,8 @@
 
 Projeto de uma calculadora simples desenvolvida para praticar conceitos fundamentais de desenvolvimento web, como manipulação de DOM, eventos e lógica em JavaScript.
 
+Link deploy: https://projeto-calculadora-plum.vercel.app/
+
 ## Funcionalidades
 
 * Operações básicas:
